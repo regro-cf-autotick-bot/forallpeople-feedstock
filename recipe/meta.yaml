@@ -1,5 +1,5 @@
 {% set name = "forallpeople" %}
-{% set version = "2.6.7" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/forallpeople-{{ version }}.tar.gz
-  sha256: eeadebc70c719765cd75e56e93db3340e771abda482103b068cbc264c1073ab9
+  sha256: 841586dc1484c6aaef4fe0826ca375850494bcccf1eed27d7743c09587ed0f6a
 
 build:
   noarch: python
